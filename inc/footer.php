@@ -6,11 +6,11 @@
 
 
                 <!-- FOOTER CONTENT -->
-                <div class="row">
+                <div class="row justify-content-between">
 
 
                     <!-- FOOTER INFO -->
-                    <div class="col-md-12 col-lg-3">
+                    <div class="col-md-12 col-lg-3 ">
                         <div class="footer-info mb-40">
 
                             <!-- Footer Logo -->
@@ -25,53 +25,27 @@
                         <div class="footer-links">
 
                             <!-- Title -->
-                            <h5 class="h5-xs">Product</h5>
+                            <h5 class="h5-xs">Sayfalar</h5>
 
                             <!-- Footer Links -->
                             <ul class="foo-links clearfix">
                                 <li>
-                                    <p class="p-md"><a href="#">How It Works?</a></p>
+                                    <p class="p-md"><a href="/">Anasayfa</a></p>
                                 </li>
                                 <li>
-                                    <p class="p-md"><a href="#">Privacy Policy</a></p>
+                                    <p class="p-md"><a href="/takim-detay.php?takim_id=1">Erkek Voleybol Takımı</a></p>
                                 </li>
                                 <li>
-                                    <p class="p-md"><a href="#">Terms of Service</a></p>
+                                    <p class="p-md"><a href="/takim-detay.php?takim_id=2">Kadın Voleybol Takımı</a></p>
                                 </li>
-                                <li>
-                                    <p class="p-md"><a href="#">Site Map</a></p>
-                                </li>
+                                
                             </ul>
 
                         </div>
                     </div>
 
 
-                    <!-- FOOTER LINKS -->
-                    <div class="col-sm-4 col-md-4 col-lg-3">
-                        <div class="footer-links">
-
-                            <!-- Title -->
-                            <h5 class="h5-xs">Connect</h5>
-
-                            <!-- Footer Links -->
-                            <ul class="foo-links clearfix">
-                                <li>
-                                    <p class="p-md"><a href="#">FAQs</a></p>
-                                </li>
-                                <li>
-                                    <p class="p-md"><a href="#">Editor Help</a></p>
-                                </li>
-                                <li>
-                                    <p class="p-md"><a href="#">Life Chatting</a></p>
-                                </li>
-                                <li>
-                                    <p class="p-md"><a href="#">Contact Us</a></p>
-                                </li>
-                            </ul>
-
-                        </div>
-                    </div>
+                    
 
 
                     <!-- FOOTER SOCIAL LINKS -->
@@ -99,7 +73,7 @@
                         <!-- FOOTER COPYRIGHT -->
                         <div class="col-md-12">
                             <div class="footer-copyright">
-                                <p>&copy; 2021 NordEx. All Rights Reserved</p>
+                                <p>&copy; 1905 Galatasaray</p>
                             </div>
                         </div>
 

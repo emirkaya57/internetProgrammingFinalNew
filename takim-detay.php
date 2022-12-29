@@ -83,10 +83,6 @@ if ($takimId) {
 
 
 <body>
-
-
-
-
     <!-- PRELOADER SPINNER
 		============================================= -->
     <div id="loader-wrapper">
@@ -152,7 +148,7 @@ if ($takimId) {
                         <div class="col-lg-5 blog-post-txt">
 
                             <!-- Post Tag -->
-                            <p class="p-md post-tag">NordEx News</p>
+                            <p class="p-md post-tag">Voleybo Takımı</p>
 
                             <!-- Post Link -->
                             <h5 class="h5-xl">
