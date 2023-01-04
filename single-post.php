@@ -122,6 +122,9 @@ if ($oyuncuId) {
 
 					<!-- SINGLE POST CONTENT -->
 					<div class="row">
+					<?php
+                        foreach ($oyuncu as $key => $oyuncuDetay) {
+                        ?>
 						<div class="col-lg-10 offset-lg-1">
 							<div class="single-post-wrapper">
 
@@ -134,9 +137,7 @@ if ($oyuncuId) {
 									<img class="img-fluid" src="https://www.freepnglogos.com/uploads/galatasaray-logo-png/siyah-uzerine-gs-logosu-ve-yildizar-hd-kalite-ucretsiz-indir-15.png" alt="blog-post-image" />		
 								</div>
 
-								<?php
-                        foreach ($oyuncu as $key => $oyuncuDetay) {
-                        ?>
+								
 								<!-- BLOG POST TEXT -->
 								<div class="single-post-txt">
 									<h4><?= $oyuncuDetay['isim_soyisim'] ?></h4>
@@ -149,13 +150,14 @@ if ($oyuncuId) {
 								</div>	<!-- END BLOG POST TEXT -->
 
 
-								<?php } ?>
+								
 
 
 								
 
 							</div>
 						</div>
+						<?php } ?>
 					</div>	<!-- END SINGLE POST CONTENT -->
 
 
